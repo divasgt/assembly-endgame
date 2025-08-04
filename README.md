@@ -1,12 +1,24 @@
-# React + Vite
+# 🧩 Assembly: Endgame
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Guess the word within 8 attempts to keep the programming world safe from Assembly!**
 
-Currently, two official plugins are available:
+A fun, interactive word-guessing game built with [React](https://reactjs.org/) and [Vite](https://vitejs.dev/). Inspired by games like Wordle, but with a coding-themed twist.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## 🕹️ How to Play
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- You have 8 chances to guess the hidden word.
+- Each wrong guess removes a programming language from the world.
+- Protect the programming world by beating Assembly!
+
+🔗 **Live Demo:** [https://assembly-endgame1.netlify.app](https://assembly-endgame1.netlify.app)
+
+
+## 🛠️ Getting Started
+
+```bash
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
